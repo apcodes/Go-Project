@@ -1,0 +1,11 @@
+{
+    "name": "COMP423 Course Notes",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": ["golang.go"]
+        }
+    },
+    "postCreateCommand": "go version"
+}
